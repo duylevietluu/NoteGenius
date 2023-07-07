@@ -1,3 +1,7 @@
+My first project in NextJS, following a NextJS crash course!
+
+Project forked from https://github.com/adrianhajdin/project_next_13_ai_prompt_sharing. Give him a star!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
