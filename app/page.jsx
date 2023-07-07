@@ -9,7 +9,11 @@ const Home = () => {
         <span  className="teal_gradient text-center">Inspiring Insights</span>
       </h1>
       <p className="desc text-center">
-        This is Duy's first Next project, super cool!
+        <span>This is </span>
+        <a href="https://github.com/duylevietluu/NoteGenius" target="_blank" rel="noopener noreferrer" class="text-blue-500">
+          Duy's first Next project
+        </a>
+        <span> and it's super cool!</span>
       </p>
 
       <Feed />

@@ -5,7 +5,11 @@ import React, { useEffect, useState } from 'react'
 import PromptCard from './PromptCard';
 
 const PromptCardList = ({data, handleTagClick, searchText}) => {
-  if (!data) return <></>;
+  if (!data || typeof data.filter !== 'function') return (
+    <div className="prompt_layout">
+      <div className='head_text text-center text-white'>Loading data, reload if needed...</div>
+    </div>
+  );
   return (
     <div className="mt-16 prompt_layout">
       {data.filter(post => 

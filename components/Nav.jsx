@@ -28,7 +28,7 @@ const Nav = () => {
           alt='logo'
           className='object-contain'
         />
-        <div className='logo_text'>NoteGenius</div>
+        <div className='logo_text'>Duy Le</div>
       </Link>
       <div className='sm:flex hidden'>
         {session?.user ? (
